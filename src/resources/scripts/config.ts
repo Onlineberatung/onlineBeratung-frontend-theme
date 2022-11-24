@@ -38,7 +38,7 @@ export const APP_PATH = 'app';
 
 export const config: AppConfigInterface = {
 	budibaseSSO: false, // Feature flag to enable SSO on budibase
-	enableWalkThrough: true, // Feature flag to enable walkthrough
+	enableWalkthrough: true, // Feature flag to enable walkthrough
 	disableVideoAppointments: true, // Feature flag to enable Video-Termine page
 	useTenantService: false,
 	multitenancyWithSingleDomainEnabled: false, // Feature flag to enable the multi tenancy with a single domain ex: lands
