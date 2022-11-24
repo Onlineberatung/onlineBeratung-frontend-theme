@@ -22,11 +22,11 @@ jobs:
                   node-version: 14.18.3
             - run: npm i
               env:
-                  GITHUB_TOKEN: ${{ secrets.GH_PACKAGE_RELEASE_TOKEN }}
+                  GITHUB_TOKEN: ${{ secrets.github_token }}
             - name: build
               run: npm run build
               env:
-                  GITHUB_TOKEN: ${{ secrets.GH_PACKAGE_RELEASE_TOKEN }}
+                  GITHUB_TOKEN: ${{ secrets.github_token }}
             - uses: actions/upload-artifact@v2
               with:
                   name: buildfiles
