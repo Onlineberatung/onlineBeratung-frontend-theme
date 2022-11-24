@@ -38,12 +38,12 @@ export const APP_PATH = 'app';
 
 export const config: AppConfigInterface = {
 	budibaseSSO: false, // Feature flag to enable SSO on budibase
-	enableWalkthrough: true, // Feature flag to enable walkthrough
+	enableWalkthrough: false, // Feature flag to enable walkthrough
 	disableVideoAppointments: true, // Feature flag to enable Video-Termine page
 	useTenantService: false,
 	multitenancyWithSingleDomainEnabled: false, // Feature flag to enable the multi tenancy with a single domain ex: lands
 	useApiClusterSettings: false, // Feature flag to enable the cluster use the cluster settings instead of the config file
-	mainTenantSubdomainForSingleDomainMultitenancy: 'app',
+	mainTenantSubdomainForSingleDomainMultitenancy: 'onlineberatung',
 
 	urls: {
 		consultantVideoConference:
