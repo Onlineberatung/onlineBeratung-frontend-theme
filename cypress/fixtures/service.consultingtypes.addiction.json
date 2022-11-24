@@ -1,0 +1,202 @@
+{
+	"id": 0,
+	"slug": "suchtberatung",
+	"excludeNonMainConsultantsFromTeamSessions": false,
+	"lockedAgencies": false,
+	"consultantBoundedToConsultingType": false,
+	"welcomeMessage": {
+		"sendWelcomeMessage": false,
+		"welcomeMessageText": null
+	},
+	"sendFurtherStepsMessage": true,
+	"sendSaveSessionDataMessage": false,
+	"isSetEmailAllowed": true,
+	"showAskerProfile": true,
+	"isSubsequentRegistrationAllowed": true,
+	"isAnonymousConversationAllowed": true,
+	"sessionDataInitializing": {
+		"addictiveDrugs": true,
+		"age": true,
+		"gender": true,
+		"relation": true,
+		"state": false
+	},
+	"whiteSpot": {
+		"whiteSpotAgencyAssigned": true,
+		"whiteSpotAgencyId": 98
+	},
+	"groupChat": {
+		"isGroupChat": false,
+		"groupChatRules": null
+	},
+	"monitoring": {
+		"initializeMonitoring": true,
+		"monitoringTemplateFile": "/monitoring/sucht.json"
+	},
+	"initializeFeedbackChat": false,
+	"languageFormal": true,
+	"roles": {
+		"consultant": {
+			"default": ["consultant"]
+		}
+	},
+	"notifications": {
+		"teamSessions": {
+			"newMessage": {
+				"allTeamConsultants": true
+			}
+		}
+	},
+	"registration": {
+		"minPostcodeSize": 5,
+		"autoSelectAgency": false,
+		"autoSelectPostcode": false,
+		"mandatoryFields": {
+			"age": false,
+			"state": false
+		},
+		"notes": {
+			"agencySelection": null,
+			"password": null
+		}
+	},
+	"requiredComponents": null,
+	"titles": {
+		"default": "Suchtberatung",
+		"short": "Sucht",
+		"long": "Suchtberatung",
+		"welcome": "Willkommen bei der Suchtberatung!",
+		"registrationDropdown": "Suchtberatung"
+	},
+	"urls": {
+		"requiredAidMissingRedirectUrl": null,
+		"registrationPostcodeFallbackUrl": null
+	},
+	"voluntaryComponents": [
+		{
+			"componentType": "RadioButton",
+			"headline": "Hintergrund",
+			"name": "relation",
+			"radioButtons": [
+				{
+					"inputId": "affected",
+					"label": "Betroffen",
+					"checked": false
+				},
+				{
+					"inputId": "relative",
+					"label": "Angehörig",
+					"checked": false
+				},
+				{
+					"inputId": "otherType",
+					"label": "Anderes",
+					"checked": false
+				}
+			]
+		},
+		{
+			"componentType": "TagSelect",
+			"headline": "Suchtmittel",
+			"name": "addictiveDrugs",
+			"tagSelects": [
+				{
+					"id": "alcohol",
+					"label": "Alkohol"
+				},
+				{
+					"id": "drugs",
+					"label": "Drogen"
+				},
+				{
+					"id": "legalHighs",
+					"label": "Legal Highs"
+				},
+				{
+					"id": "tabacco",
+					"label": "Tabak"
+				},
+				{
+					"id": "medication",
+					"label": "Medikamente"
+				},
+				{
+					"id": "gambling",
+					"label": "Glücksspiel"
+				},
+				{
+					"id": "internetUse",
+					"label": "Internet/Computer"
+				},
+				{
+					"id": "eatingDisorder",
+					"label": "Essstörungen"
+				},
+				{
+					"id": "otherDrug",
+					"label": "Andere"
+				}
+			]
+		},
+		{
+			"componentType": "SelectDropdown",
+			"headline": "Alter",
+			"name": "age",
+			"item": {
+				"id": "ageSelect",
+				"selectedOptions": [
+					{
+						"value": "0",
+						"label": "0-17"
+					},
+					{
+						"value": "1",
+						"label": "18-20"
+					},
+					{
+						"value": "2",
+						"label": "21-30"
+					},
+					{
+						"value": "3",
+						"label": "31-40"
+					},
+					{
+						"value": "4",
+						"label": "41-59"
+					},
+					{
+						"value": "5",
+						"label": "60+"
+					}
+				],
+				"selectInputLabel": "Alter auswählen",
+				"useIconOption": false,
+				"isSearchable": false,
+				"menuPlacement": "bottom"
+			}
+		},
+		{
+			"componentType": "RadioButton",
+			"headline": "Geschlecht",
+			"name": "gender",
+			"radioButtons": [
+				{
+					"inputId": "female",
+					"label": "Weiblich",
+					"checked": false
+				},
+				{
+					"inputId": "male",
+					"label": "Männlich",
+					"checked": false
+				},
+				{
+					"inputId": "diverseGender",
+					"label": "Divers",
+					"checked": false
+				}
+			]
+		}
+	]
+}

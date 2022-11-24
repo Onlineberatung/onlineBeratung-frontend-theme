@@ -1,0 +1,32 @@
+{
+	"userId": "asker1",
+	"userName": "asker1",
+	"firstName": null,
+	"lastName": null,
+	"email": null,
+	"absenceMessage": null,
+	"agencies": null,
+	"userRoles": ["offline_access", "uma_authorization", "user"],
+	"grantedAuthorities": ["AUTHORIZATION_USER_DEFAULT"],
+	"consultingTypes": {
+		"0": { "sessionData": null, "isRegistered": false, "agency": null },
+		"1": {
+			"sessionData": { "age": null, "gender": null, "state": null },
+			"isRegistered": true,
+			"agency": {
+				"id": 1,
+				"name": "agency name",
+				"postcode": "12345",
+				"city": "city",
+				"description": null,
+				"teamAgency": true,
+				"offline": false,
+				"consultingType": 1
+			}
+		},
+		"17": { "sessionData": null, "isRegistered": false, "agency": null }
+	},
+	"formalLanguage": true,
+	"absent": false,
+	"inTeamAgency": false
+}

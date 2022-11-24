@@ -1,0 +1,14 @@
+[
+	{
+		"title": "Flucht und Migration",
+		"consultingTypes": [
+			{
+				"id": 17,
+				"titles": {
+					"default": "Auswanderung",
+					"long": "Auswanderung Long"
+				}
+			}
+		]
+	}
+]

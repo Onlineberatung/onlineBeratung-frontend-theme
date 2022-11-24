@@ -1,0 +1,82 @@
+{
+	"id": 17,
+	"slug": "rw-auswanderung",
+	"group": "Flucht und Migration",
+	"description": "Aufenthaltsstatus, Sprachkurs, Arbeitssuche – Sie suchen zu diesen Themen Rat? Dann sind Sie hier richtig. Ob Sie aus einem EU-Land oder einem anderen Land kommen, ob Sie als Flüchtling oder aus einem anderen Grund nach Deutschland gekommen sind – wir helfen Ihnen individuell, vertraulich und kostenlos. Vor Ort oder per Online-Beratung.",
+	"furtherInformation": {
+		"label": "Weitere Informationen",
+		"url": "https://www.diakonie.de/arbeitsmigration-und-pflege"
+	},
+	"excludeNonMainConsultantsFromTeamSessions": false,
+	"lockedAgencies": false,
+	"consultantBoundedToConsultingType": false,
+	"welcomeMessage": {
+		"sendWelcomeMessage": false,
+		"welcomeMessageText": null
+	},
+	"sendFurtherStepsMessage": true,
+	"sendSaveSessionDataMessage": false,
+	"isSetEmailAllowed": true,
+	"showAskerProfile": false,
+	"isSubsequentRegistrationAllowed": true,
+	"isAnonymousConversationAllowed": true,
+	"sessionDataInitializing": {
+		"addictiveDrugs": false,
+		"age": false,
+		"gender": false,
+		"relation": false,
+		"state": false
+	},
+	"whiteSpot": {
+		"whiteSpotAgencyAssigned": true,
+		"whiteSpotAgencyId": 1731
+	},
+	"groupChat": {
+		"isGroupChat": false,
+		"groupChatRules": null
+	},
+	"monitoring": {
+		"initializeMonitoring": false,
+		"monitoringTemplateFile": null
+	},
+	"initializeFeedbackChat": false,
+	"languageFormal": true,
+	"roles": {
+		"consultant": {
+			"default": ["consultant"]
+		}
+	},
+	"notifications": {
+		"teamSessions": {
+			"newMessage": {
+				"allTeamConsultants": true
+			}
+		}
+	},
+	"registration": {
+		"minPostcodeSize": 5,
+		"autoSelectAgency": true,
+		"autoSelectPostcode": false,
+		"mandatoryFields": {
+			"age": false,
+			"state": false
+		},
+		"notes": {
+			"agencySelection": "Sollten Sie im Ausland leben, geben Sie bitte die Postleitzahl eines Bezugsortes in Deutschland (zukünftiger Wohnort, Heimatort…) an.",
+			"password": null
+		}
+	},
+	"requiredComponents": null,
+	"voluntaryComponents": null,
+	"titles": {
+		"default": "Auswanderung",
+		"short": "Auswanderung",
+		"long": "Aus-/Rück- & Weiterwanderung",
+		"welcome": "Willkommen bei der Aus-/Rück- & Weiterwanderung!",
+		"registrationDropdown": "Auswanderung"
+	},
+	"urls": {
+		"requiredAidMissingRedirectUrl": null,
+		"registrationPostcodeFallbackUrl": "https://www.diakonie.de/arbeitsmigration-und-pflege/"
+	}
+}
