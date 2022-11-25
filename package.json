@@ -26,7 +26,7 @@
 		"node": ">=14.0.0"
 	},
 	"dependencies": {
-		"@onlineberatung/onlineberatung-frontend": "git+https://github.com/Onlineberatung/onlineBeratung-frontend.git#develop",
+		"@onlineberatung/onlineberatung-frontend": "git+https://github.com/virtualidentityag/vi-saas-frontend.git#develop",
 		"@typescript-eslint/eslint-plugin": "^4.33.0",
 		"@typescript-eslint/parser": "^4.33.0",
 		"babel-eslint": "^10.1.0",
